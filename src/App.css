@@ -1,38 +1,173 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'roboto', sans-serif;
+  background-color: #fff;
+  color: rgb(31, 31, 31);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  padding: 20px 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes slide-up {
   from {
-    transform: rotate(0deg);
+    display: none;
+    transform: translateY(100px);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    display: block;
+    opacity: 1;
   }
 }
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  animation: fade-in 1500ms;
+}
+
+.section-header {
+  max-width: 640px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+span {
+  font-style: italic;
+}
+
+.media-container {
+  display: flex;
+  width: 100%;
+  animation: slide-up 1500ms;
+}
+
+.bandcamp {
+  width: 640px;
+  margin-right: 20px;
+}
+
+.vimeo {
+  width: 640px;
+}
+
+.about {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  animation: slide-up 1500ms;
+}
+
+.about-copy {
+  max-width: 400px;
+  line-height: 1.7rem;
+  margin-right: 2rem;
+}
+
+.about-copy p {
+  margin-top: 1.5rem;
+}
+
+.about-link {
+  color: rgb(31, 31, 31);
+}
+
+.about-photo {
+  margin-left: 2rem;
+}
+
+.about-photo img {
+  max-width: 350px;
+
+  width: 100%;
+  border-top-left-radius: 20rem;
+  border-top-right-radius: 20rem;
+}
+
+.footer {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+  body {
+    padding: 20px 30px;
+  }
+
+  .portfolio {
+    align-items: center;
+  }
+
+  .media-container {
+    flex-direction: column;
+    background-attachment: fixed;
+    max-width: 640px;
+  }
+
+  .bandcamp {
+   width: 100%;
+   margin-right: 0px;
+  }
+
+  .vimeo {
+    max-width: 100%;
+    height: 360px;
+    margin-top: 5%;
+  }
+
+}
+
+  @media screen and (max-width: 800px) {
+
+    .about {
+      height: 100%;
+    }
+
+    .about {
+      flex-direction: column-reverse;
+      padding: 1rem;
+    }
+
+    .about-photo {
+      margin: 0px;
+    }
+  
+    .about-copy {
+      margin: 3rem 0px;
+    }
+
+    .footer{
+      display: block;
+      background-color: burlywood;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+  }
+
