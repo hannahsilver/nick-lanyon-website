@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nick-lanyon-website/static/css/main.a2237f2a.css",
-    "main.js": "/nick-lanyon-website/static/js/main.83ef2ef5.js",
-    "static/media/aboutPhoto.jpg": "/nick-lanyon-website/static/media/aboutPhoto.09c176ce8b7abb2b6bdb.jpg",
-    "static/media/Magilio.otf": "/nick-lanyon-website/static/media/Magilio.4bb4f911c8d1d4d8aa98.otf",
-    "index.html": "/nick-lanyon-website/index.html",
-    "main.a2237f2a.css.map": "/nick-lanyon-website/static/css/main.a2237f2a.css.map",
-    "main.83ef2ef5.js.map": "/nick-lanyon-website/static/js/main.83ef2ef5.js.map"
+    "main.css": "/nicklanyon/static/css/main.8c4b33d5.css",
+    "main.js": "/nicklanyon/static/js/main.46d83957.js",
+    "static/media/aboutPhoto.jpg": "/nicklanyon/static/media/aboutPhoto.09c176ce8b7abb2b6bdb.jpg",
+    "static/media/Magilio.otf": "/nicklanyon/static/media/Magilio.4bb4f911c8d1d4d8aa98.otf",
+    "index.html": "/nicklanyon/index.html",
+    "main.8c4b33d5.css.map": "/nicklanyon/static/css/main.8c4b33d5.css.map",
+    "main.46d83957.js.map": "/nicklanyon/static/js/main.46d83957.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2237f2a.css",
-    "static/js/main.83ef2ef5.js"
+    "static/css/main.8c4b33d5.css",
+    "static/js/main.46d83957.js"
   ]
 }
