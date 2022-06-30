@@ -15,19 +15,19 @@ function Navbar() {
         <div>
             <nav className="navbar">
                 <div className="navbar-top">
-                    <Link to="/" className="navbar-logo">Nick Lanyon</Link>
+                    <Link to="nicklanyon/" className="navbar-logo">Nick Lanyon</Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
                     </div>
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className="nav-item">
-                        <NavLink to="/" className="nav-links" activeclassname="active" onClick={closeMobileMenu}>
+                        <NavLink to="nicklanyon/" className="nav-links" activeclassname="active" onClick={closeMobileMenu}>
                             portfolio
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/about" className="nav-links" activeclassname="active" onClick={closeMobileMenu}>
+                        <NavLink to="nicklanyon/about" className="nav-links" activeclassname="active" onClick={closeMobileMenu}>
                             about
                         </NavLink>
                     </li>
