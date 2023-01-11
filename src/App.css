@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  font-family: 'roboto', sans-serif;
+  font-family: "roboto", sans-serif;
   background-color: #fff;
   color: rgb(31, 31, 31);
 }
@@ -27,7 +27,8 @@ body {
 @keyframes fade-in {
   from {
     opacity: 0;
-  } to {
+  }
+  to {
     opacity: 1;
   }
 }
@@ -59,6 +60,10 @@ span {
   font-style: italic;
 }
 
+.album-info {
+  /* font-size: 18px; */
+}
+
 .media-container {
   display: flex;
   width: 100%;
@@ -76,7 +81,7 @@ span {
 
 .about {
   display: flex;
-  height: 80vh;
+  height: 85vh;
   justify-content: center;
   align-items: center;
   animation: slide-up 1500ms;
@@ -86,6 +91,7 @@ span {
   max-width: 400px;
   line-height: 1.7rem;
   margin-right: 2rem;
+  font-size: large;
 }
 
 .about-copy p {
@@ -112,10 +118,7 @@ span {
   display: none;
 }
 
-
-
 @media screen and (max-width: 1000px) {
-
   body {
     padding: 20px 30px;
   }
@@ -131,8 +134,8 @@ span {
   }
 
   .bandcamp {
-   width: 100%;
-   margin-right: 0px;
+    width: 100%;
+    margin-right: 0px;
   }
 
   .vimeo {
@@ -140,34 +143,30 @@ span {
     height: 360px;
     margin-top: 5%;
   }
-
 }
 
-  @media screen and (max-width: 800px) {
-
-    .about {
-      height: 100%;
-    }
-
-    .about {
-      flex-direction: column-reverse;
-      padding: 1rem;
-    }
-
-    .about-photo {
-      margin: 0px;
-    }
-  
-    .about-copy {
-      margin: 3rem 0px;
-    }
-
-    .footer{
-      display: block;
-      background-color: burlywood;
-      padding: 1.5rem;
-      text-align: center;
-    }
-
+@media screen and (max-width: 800px) {
+  .about {
+    height: 100%;
   }
 
+  .about {
+    flex-direction: column-reverse;
+    padding: 1rem;
+  }
+
+  .about-photo {
+    margin: 0px;
+  }
+
+  .about-copy {
+    margin: 3rem 0px;
+  }
+
+  .footer {
+    display: block;
+    background-color: burlywood;
+    padding: 1.5rem;
+    text-align: center;
+  }
+}
