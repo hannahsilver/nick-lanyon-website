@@ -5,26 +5,6 @@ function Portfolio() {
     <div className="portfolio">
       <div className="section">
         <div className="section-header">
-          <p className="title">Album title here...</p>
-          <p className="album-info">Album info here....</p>
-        </div>
-        <div className="media-container">
-          <iframe
-            className="bandcamp"
-            height="360px"
-            title="bandcamp-player"
-            frameBorder="0"
-            src="https://bandcamp.com/EmbeddedPlayer/album=3396749703/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/"
-            seamless
-          >
-            <a href="https://nicklanyon.bandcamp.com/album/evergreen-score">
-              Evergreen Score by Nick Lanyon
-            </a>
-          </iframe>
-        </div>
-      </div>
-      <div className="section">
-        <div className="section-header">
           <p className="title">“Evergreen” (Short Film Score, 2022) </p>
           <p className="album-info">Score composer, recording engineer </p>
         </div>
