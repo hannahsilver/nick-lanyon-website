@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import Button from "./Button";
 import "./Navbar.css";
-import { BrowserRouter as Router } from "react-router-dom";
 
 function Navbar() {
   const [click, setClick] = useState(false);
